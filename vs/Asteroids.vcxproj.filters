@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e9b2b8c8-28b3-4eff-986f-98a1b2cd3417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b3eb7132-b8b8-481c-a95e-f1200533cd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\World">
+      <UniqueIdentifier>{63d322fc-3aa5-439c-8a27-9f61b1ae5eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\World\Player">
+      <UniqueIdentifier>{8e04fc37-58c0-41be-9fbb-75670b6568e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\World\Asteroids">
+      <UniqueIdentifier>{d6ea381b-1d22-4c74-a7dc-40ffd3482224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\World\Player\Projectiles">
+      <UniqueIdentifier>{5da56074-00c7-401f-822d-368b3bfed3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Bases">
+      <UniqueIdentifier>{49b8093d-803e-46e3-9290-c173975756fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Arena.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Asteroid.cpp">
+      <Filter>src\World\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bullet.cpp">
+      <Filter>src\World\Player\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Missile.cpp">
+      <Filter>src\World\Player\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity.cpp">
+      <Filter>src\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI.cpp">
+      <Filter>src\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Math.cpp">
+      <Filter>src\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Overlay.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneGraph.cpp">
+      <Filter>src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Spaceship.cpp">
+      <Filter>src\World\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Arena.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Asteroid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bullet.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Math.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Missile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Overlay.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneGraph.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Spaceship.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
